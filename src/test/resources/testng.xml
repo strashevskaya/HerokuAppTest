@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify calculator" thread-count="2" parallel="tests">
+    <test name="Verify Subtraction">
+        <classes>
+            <class name="testng.CalculatorSubTest"/>
+        </classes>
+    </test>
+    <test name="Verify Divide">
+        <classes>
+            <class name="testng.CalculatorDivTest"/>
+        </classes>
+    </test>
+    <test name="Verify Sum">
+        <classes>
+            <class name="testng.CalculatorSumTest"/>
+        </classes>
+    </test>
+    <test name="Verify Multiply">
+        <classes>
+            <class name="testng.CalculatorMultTest"/>
+        </classes>
+    </test>
+</suite>
